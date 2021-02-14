@@ -1,4 +1,4 @@
-fetch("http://13.76.132.107:8081/memes").then(
+fetch("https://13.76.132.107:8081/memes").then(
     res => {
         res.json().then(
             data=> {

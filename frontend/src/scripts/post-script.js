@@ -6,7 +6,7 @@ window.onload = function() {
         var caption = document.getElementById("caption").value;
         var url = document.getElementById("url").value;
 
-        fetch("http://13.76.132.107:8081/memes", {
+        fetch("https://13.76.132.107:8081/memes", {
             method : 'POST',
             body : JSON.stringify({
                 "name" : name,
